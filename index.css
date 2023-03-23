@@ -1,0 +1,109 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box
+}
+
+main {
+    display: flex;
+
+}
+
+main article {
+    flex: 50%;
+}
+
+.input-data {
+    background-color: #f0f0f0;
+    padding: 1px 10px 30px 20px;
+    border-radius: 10px;
+}
+
+.hasil-data {
+    background-color: #f0f0f0;
+    padding: 1px 10px 30px 20px;
+    border-radius: 10px;   
+}
+
+.data {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+i {
+    padding-right: 10px;
+}
+
+a img {
+    max-width: 20%;
+    height: auto;
+}
+
+article {
+    margin: 20px;
+}
+
+.input-gender {
+    display: flex;
+}
+
+.input p {
+    font-weight: bold;
+}
+
+.submit {
+    padding: 12px;
+    margin-top: 27px;
+    color: white;
+    background-color: #5ea2e6;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset {
+    padding: 12px;
+    margin-top: 27px;
+    border: thin;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.hasil-data p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.hasil-data .submit {
+    margin: auto 37%;
+}
+
+.illness {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 1px 10px 30px 20px;
+    border-radius: 10px; 
+}
+
+.illness ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.download {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0388fc;
+    transition-duration: 0.5s;
+}
+
+.reset:hover {
+    background-color: lightgray;
+    transition-duration: 0.5s;
+}
